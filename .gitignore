@@ -1,0 +1,36 @@
+# Planning docs (local only, not version controlled)
+docs/planning/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+services/**/target/
+services/**/*.jar
+services/**/*.class
+
+# Go
+services/**/bin/
+services/**/vendor/
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Docker
+*.log
+
+# Kubernetes secrets (never commit)
+infrastructure/k8s/secrets/
